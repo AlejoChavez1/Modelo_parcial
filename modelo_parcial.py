@@ -1,11 +1,4 @@
 inventario = []
-def bubble_sort(inventario : list):
-    for i in range (len(inventario) - 1):
-        for j in range(len(inventario) -1 - i):
-            if inventario[j][1] > inventario[j+1][1]:
-                inventario[j], inventario[j + 1] = inventario[j + 1], inventario[j]
-    return inventario
-
 def mostrar_menu ():
     print("""
     [1] Cargar Producto
